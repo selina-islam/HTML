@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        <!-- This is form section -->
+      <form action="#" method="post"> 
+        <fieldset>
+        <legend>Registration Form</legend>
+
+        <label for="name" >Name:</label>
+        <input type="text" id="name" placeholder="Enter your name..." autofocus><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email.." required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password"><br>
+
+        <label>Country</label>
+        <input list="Country" placeholder="Enter your country name...">
+        <datalist id="Country">
+        <option value="Bangladesh"></option>
+        <option value="India"></option>
+        <option value="Maldives"></option>
+        </datalist><br>
+
+        <select name="countrycode" id="countrycode">
+                <option value="Select Country">Select Country</option>
+                <option value="+880">+890</option>
+                <option value="+880">+99</option>
+                <option value="+880">0222</option>
+                <option value="+880">+844</option>
+                <option value="+880">+120</option>
+        </select>
+        <input type="tel" placeholder="Enter your number" > <br>
+
+        <label for="">Select your gender:</label>
+        <input type="radio" name="gender" id="Male">
+        <label for="Male">Male</label>
+
+        <input type="radio" name="gender" id="Female">
+        <label for="Female">Female</label><br>
+
+        <label for="">What type of device you have?</label> <br>
+        <input type="checkbox" name="phone" value="phone" id="phone">
+        <label for="phone">I have a phone</label><br>
+        <input type="checkbox" name="tab" value="tab" id="tab">
+        <label for="phone">I have a Tab</label><br>
+        <input type="checkbox" name="laptop" value="laptop" id="laptop">
+        <label for="phone">I have a Laptop</label><br>
+
+        <label>Your favourite color?</label>
+        <input type="color"><br>
+
+        <label>Enter your range</label>
+        <input type="range"><br>
+
+        <label>Date of Birth:</label>
+        <input type="date"><br>
+
+        <label>Time:</label>
+        <input type="time"><br>
+
+        <input type="search" placeholder="Search"><br>
+
+        <input type="url" placeholder="Enter your website"> <br>
+
+        <label>Enter your photo</label>
+        <input type="file"><br>
+
+        <textarea name="ques" id="ques" cols="30" rows="10" placeholder="enter your comment..."></textarea><br>
+
+        <!-- <button type="submit">Submit</button>
+        <button type="reset">Reset</button> -->
+        <input type="submit">
+        <input type="reset">
+        </fieldset>
+      </form>  
+</body>
+</html>
